@@ -10,6 +10,7 @@ Change tracker logins in author, assignee, followers fields
 Пример файла from.txt после первого запуска:
 
 1130000012345678 # ivan@mydomain.com
+
 87654321 # ivan@yandex.ru
 
 Привер строки для замены доменной учетки на яндексовую в файле to.txt:
