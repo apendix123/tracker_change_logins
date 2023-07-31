@@ -1,9 +1,12 @@
 from yandex_tracker_client import TrackerClient
 
 org_id='999999'
+cloud_org_id='bpf00000000000000000'
 token='y0_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
 per_page = 1000
 client = TrackerClient(token=token, org_id=org_id)
+#client = TrackerClient(token=token, cloud_org_id=org_id)
+
 
 from datetime import datetime 
 import pandas as pd
